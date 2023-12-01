@@ -21,5 +21,6 @@ The Currency Converter allows users to convert amounts from one currency to anot
 
 ## API Usage
 
-The Currency Converter utilizes an external API to fetch the latest exchange rates. 
-The API used in this project is [Exchangerate API](https://www.exchangerate-api.com/).
+- The Currency Converter utilizes an external API to fetch the latest exchange rates.
+  
+-The API used in this project is [Exchangerate API](https://www.exchangerate-api.com/).
