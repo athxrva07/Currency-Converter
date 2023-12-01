@@ -4,11 +4,11 @@
 
 The Currency Converter allows users to convert amounts from one currency to another using real-time exchange rates. This project provides a simple and user-friendly interface for performing currency conversions.
 
+
 ## Demo
 
 [**Click here**](https://athxrva07.github.io/Currency-Converter/) to see a live demo of the Currency Converter app.
 
-## Features
 
 ## Features
 
@@ -17,6 +17,7 @@ The Currency Converter allows users to convert amounts from one currency to anot
 - Currency selection: Users can select the currencies they want to convert from and to using dropdown menus. The available currencies are dynamically populated based on the exchange rate data.
 
 - Conversion results: After entering the amount in rupees and selecting the desired currencies, the application displays the converted amount.
+
 
 ## API Usage
 
