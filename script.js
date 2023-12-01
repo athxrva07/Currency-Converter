@@ -46,7 +46,7 @@ function convertCurrency() {
   result.innerHTML = 'Converted Amount: <span style="color: #1E88E5; font-size: 1.5rem;">' + convertedAmount.toFixed(2) + ' ' + '</span>' + toCurrency;
 }
 
-fetch("https://api.exchangerate-api.com/v4/latest/INR")
+fetch("https://v6.exchangerate-api.com/v6/8e00ad0c06b5cf43bfca8ddd/latest/INR")
   .then(response => response.json())
   .then(data => {
     conversionRates = data.rates;
