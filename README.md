@@ -16,7 +16,7 @@ The Currency Converter allows users to convert amounts from one currency to anot
 
 - Currency selection: Users can select the currencies they want to convert from and to using dropdown menus.
 
-- Conversion results: After entering the amount in rupees and selecting the desired currencies, the application displays the converted amount.
+- Conversion results: After entering the amount in rupees and selecting the desired currencies, converted amount is displayed.
 
 
 ## API Usage
