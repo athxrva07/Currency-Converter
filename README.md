@@ -14,7 +14,7 @@ The Currency Converter allows users to convert amounts from one currency to anot
 
 - Real-time exchange rates: The Currency Converter fetches the latest exchange rates from an API to ensure accurate and up-to-date currency conversions.
 
-- Currency selection: Users can select the currencies they want to convert from and to using dropdown menus. The available currencies are dynamically populated based on the exchange rate data.
+- Currency selection: Users can select the currencies they want to convert from and to using dropdown menus.
 
 - Conversion results: After entering the amount in rupees and selecting the desired currencies, the application displays the converted amount.
 
