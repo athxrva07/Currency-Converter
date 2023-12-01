@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <meta name="title" content="Currency Converter">
+    <meta name="description" content="The Currency Converter is a web application that allows users to convert amounts from one currency to another using real-time exchange rates.">
+    <meta name="keywords" content="currency, converter, currency-converter, currency-exchange">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.17/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');</style>
+    <script>
+        document.title = "Currency Converter";
+    </script>
+</head>
+
+<body class="bg-black grid place-content-center items-center min-h-screen text-center" style="font-family: 'Quicksand', sans-serif;">
+    <img src="favicon.jpeg" class="mx-auto w-36 h-36 my-5 shadow-lg rounded-full"/>
+    <div class="bg-white p-5 rounded-xl shadow-lg max-w-2xl">
+        <h1 class="text-2xl font-bold my-3">Currency Converter</h1>
+        <div class="flex justify-between my-3">
+            <label for="from-currency">Convert From:</label>
+            <select class="border border-gray-300 rounded px-3 py-2" id="from-currency" name="from-currency"></select>
+        </div>
+        <div class="flex justify-between my-4">
+            <label for="to-currency">Convert To:</label>
+            <select class="border border-gray-300 rounded px-3 py-2" id="to-currency" name="to-currency"></select>
+        </div>
+        <label for="amount">Enter an Amount:</label>
+        <input class="border border-gray-300 rounded px-3 py-2 mb-4 w-full" type="number" id="amount" name="amount" onkeyup="convertCurrency()" autofocus>
+        <p id="result" class="mt-4 text-lg font-bold"></p>
+        <script src="script.js"></script>
+    </div>
+    
+</body>
+
+</html>
