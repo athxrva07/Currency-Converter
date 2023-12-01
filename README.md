@@ -6,7 +6,7 @@ The Currency Converter allows users to convert amounts from one currency to anot
 
 ## Demo
 
-[**Click here**](https://harsh98trivedi.github.io/Currency-Converter) to see a live demo of the Currency Converter app.
+[**Click here**](https://athxrva07.github.io/Currency-Converter/) to see a live demo of the Currency Converter app.
 
 ## Features
 
